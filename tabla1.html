@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #C09BD8;
+        }
+
+        header {
+            background-color: #9F84BD;
+            display: flex;
+            margin: 0%;
+            justify-content: center;
+            font-size: 50px;
+
+        }
+
+        main {
+            background-color: #EBC3DB;
+            margin: 0%;
+            
+        }
+
+        table {
+            background-color: #EDE3E9;
+            border: 2px solid #423E37;
+            width: 60%;
+            font-size: 30px;
+            margin: 10px;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: #E6E4CE;
+            color: #423E37;
+            text-align: center;
+
+        }
+
+        tfoot {
+            background-color: #E6E4CE;
+            border: 4px solid #423E37;
+        }
+
+        img {
+            width: 200px;
+        }
+        .imagenes{
+            padding: 5px;
+            justify-content: center;
+        }
+        td{
+            text-align: center;
+            border: 2px solid #423E37;
+        }
+        th{
+            text-align: center;
+            border: 3px solid #423E37;
+        }
+        section{
+            background-color: #EBC3DB;
+            display: flex;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tablas</h1>
+    </header>
+    <main>
+        <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Calorias</th>
+                    <th>Tipo</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Medialuna</td>
+                    <td>200</td>
+                    <td>dulce</td>
+                    <td class="imagenes"><img src="/assets/medialuna.jpg.webp" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Carasucia</td>
+                    <td>187</td>
+                    <td>dulce</td>
+                    <td class="imagenes"><img src="/assets/carasucia.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Bizcochito</td>
+                    <td>35</td>
+                    <td>Salado</td>
+                    <td class="imagenes"><img src="/assets/bizcochito.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Alfajor de maicena</td>
+                    <td>141</td>
+                    <td>dulce</td>
+                    <td class="imagenes"><img src="/assets/alfaor.jpg.webp" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Donas</td>
+                    <td>209</td>
+                    <td>dulce</td>
+                    <td class="imagenes"><img src="/assets/dona.jpeg" alt=""></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4"> Valentina Hernandez</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    </main>
+
+
+</body>
+
+</html>
